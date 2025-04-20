@@ -1,9 +1,7 @@
 package org.example.expert.client;
 
-import lombok.RequiredArgsConstructor;
 import org.example.expert.client.dto.WeatherDto;
 import org.example.expert.domain.common.exception.ServerException;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
